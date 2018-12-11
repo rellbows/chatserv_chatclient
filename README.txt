@@ -37,3 +37,12 @@ Usage Instructions:
 
 Testing Details:
 Scripts were tested on a MacBook Pro running macOS Sierra ver. 10.12.6.
+
+Notes:
+1. 'chatserv.py' file is not fully operational.
+
+Bugs/TODOS:
+1. Messages from client received by serv are displayed with trailing newline character.
+2. Issues with shutting down serv. Does not exit gracefully.
+3. Make serv multithreaded.
+4. Make possible for either host to send messages at any time (while connection is active). 
